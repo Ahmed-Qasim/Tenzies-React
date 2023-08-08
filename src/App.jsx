@@ -9,7 +9,7 @@ function App() {
     const [dice, setDice] = useState(allNewDice());
     const [tenzies, setTenzies] = useState(false);
     const [rollsNum, setRollsNum] = useState(0);
-    console.log(rollsNum);
+ 
 
     const diceFaces = {
         1: "⚀",
